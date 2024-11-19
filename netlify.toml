@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build" # Command to build your project
+  publish = "build"         # Directory to deploy (default for React apps)
+
+[dev]
+  command = "npm start"     # Local development command
+  port = 3000               # Port for local development
